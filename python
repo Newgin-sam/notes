@@ -1,0 +1,5 @@
+too add conda env to the jupyter in anaconda
+
+source activate myenv
+pip install ipykernel
+python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
